@@ -1,0 +1,14 @@
+[user]
+	name = ds-costa
+	email = davidshcosta@gmail.com
+[core]
+    editor = vim
+
+[alias]
+    st = status
+    co = commit
+    br = branch
+    ch = checkout
+    log1l = log --oneline
+    logg = log --graph
+    log1lg = log --oneline --graph
