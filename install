@@ -42,7 +42,11 @@ rm -rf /nvm
 sudo apt install npm -y
 
 # Oh-my-zsh
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --keep-zshrc
+cp ~/.zshrc ~/.zshrc.orig
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cp ~/.zshrc.orig ~/.zshrc
+rm ~/.zshrc.orig
+
 chsh -s $(which zsh)
 
 # Powerlevel10k
