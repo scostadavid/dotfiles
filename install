@@ -1,0 +1,48 @@
+#!/bin/zsh
+
+cd ~
+
+sudo apt install zsh
+
+# Oh-my-zsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+sudo apt update -qq
+
+# =========== curl  ============= #
+sudo apt install curl -y
+
+# =========== json data ========== #
+sudo apt install jq -y
+
+# ================== git ==================  #
+sudo apt install git -y
+
+# ================== vim/vim-plug ==================  #
+sudo apt install vim -y
+
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# ================== c/c++ enviroment ==================  #
+sudo apt install gcc g++ -y
+sudo apt install build-essential -y
+sudo apt install make cmake -y
+
+# ================== Python3 enviroment ==================  #
+sudo apt install python3 -y
+sudo apt install python3-pip -y
+sudo apt install python3-venv -y
+
+# ================== Nodejs enviroment ==================  #
+# https://github.com/nvm-sh/nvm
+# nvm ls to see all installed node versions
+git clone https://github.com/nvm-sh/nvm.git
+./nvm/install.sh
+nvm install --lts
+nvm use --lts
+rm -rf /nvm
+sudo apt install npm -y
+
+# Installation done
+echo "All done. Please restart your computer."
