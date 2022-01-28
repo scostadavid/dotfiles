@@ -1,7 +1,12 @@
-# Dotfiles
+# ⏺ Dotfiles
+
+A collection of my configuration dotfiles.
+
+## ✔️ Requirements
+
+This repository is managed with [yadm](https://github.com/TheLocehiliosan/yadm).
 
 ## Installation Steps
-This repository is managed with [yadm](https://github.com/TheLocehiliosan/yadm).
 
 * Clone the repo with yadm
 ```bash
@@ -15,3 +20,6 @@ sh install
 ```bash
 zsh setupzsh
 ```
+
+👨‍💻 Maintainers/Contributors
+* David Costa - [davidshosta@gmail.com](mailto:davidshosta@gmail.com)
