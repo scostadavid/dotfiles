@@ -12,3 +12,5 @@
     log1l = log --oneline
     logg = log --graph
     log1lg = log --oneline --graph
+    sl = stash list
+    sp = stash pop 
