@@ -1,6 +1,6 @@
 [user]
-	name = scostadavid
-	email = davidshcosta@gmail.com
+    name = scostadavid
+    email = davidshcosta@gmail.com
 [core]
     editor = vim
 
@@ -9,8 +9,9 @@
     co = commit
     br = branch
     ch = checkout
-    log1l = log --oneline
-    logg = log --graph
-    log1lg = log --oneline --graph
+    df = diff
     sl = stash list
     sp = stash pop 
+    log-l = log --oneline
+    log-g = log --graph
+    log-lg = log --oneline --graph
