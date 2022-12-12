@@ -5,6 +5,7 @@
     editor = vim
 
 [alias]
+    pl = pull
     st = status
     co = commit
     br = branch
