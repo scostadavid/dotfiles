@@ -16,11 +16,6 @@ yadm clone https://github.com/scostadavid/dotfiles
 ```bash
 sh install
 ```
-* Run the zsh setup script
-```bash
-zsh setupzsh
-```
-* Install a [Nerd Font](https://https://www.nerdfonts.com/) and set the font as default in your terminal 
 
 👨‍💻 Maintainers/Contributors
 * David Costa - [scostadavid@proton.me](mailto:scostadavid@proton.me)
