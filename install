@@ -41,10 +41,5 @@ nvm use --lts
 rm -rf /nvm
 sudo apt install npm -y
 
-# Oh-my-zsh
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-chsh -s $(which zsh)
-
 # Installation done
 echo "All done. Please restart your computer."
