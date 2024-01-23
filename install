@@ -2,8 +2,7 @@
 
 cd ~
 
-sudo apt install zsh
-
+# =========================================
 sudo apt update -qq
 
 # =========== curl  ============= #
