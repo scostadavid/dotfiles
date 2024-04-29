@@ -8,4 +8,8 @@ alias rf='rm -rf'
 alias clipcopy='xclip -sel c'
 
 # adb
+alias adb='~/Android/Sdk/platform-tools/adb'
+
 alias reverseall='adb start-server && adb reverse tcp:9229 tcp:9292 && adb reverse tcp:9000 tcp:9000 && adb reverse tcp:8081 tcp:8081'
+
+
