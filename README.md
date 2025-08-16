@@ -18,4 +18,4 @@ sh install
 ```
 
 👨‍💻 Maintainers/Contributors
-* David Costa - [scostadavid@proton.me](mailto:scostadavid@proton.me)
+* David Costa - [me@scostadavid.dev](mailto:me@scostadavid.dev)
