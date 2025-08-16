@@ -14,7 +14,7 @@ yadm clone https://github.com/scostadavid/dotfiles
 ```
 * Run the install script with bash
 ```bash
-sh install
+sh install_packages.sh
 ```
 
 👨‍💻 Maintainers/Contributors
