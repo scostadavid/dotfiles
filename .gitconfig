@@ -1,9 +1,8 @@
 [user]
-    name = scostadavid
-    email = scostadavid@proton.me
+    name = David Costa
+    email = me@scostadavid.dev
 [core]
-    editor = vim
-
+    editor = nano
 [alias]
     pl = pull
     st = status
@@ -12,7 +11,4 @@
     ch = checkout
     df = diff
     sl = stash list
-    sp = stash pop 
-    log-l = log --oneline
-    log-g = log --graph
-    log-lg = log --oneline --graph
+    sp = stash pop
